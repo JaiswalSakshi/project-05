@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+body{
+  background-image: url(./assets/bg.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+nav{
+    height: 70px;
+    background-color: black;
+}
+.navbar{
+    margin-left: -8px;
+    margin-top: -7px;
+    display: flex;
+    color: #fff;
+}
+.navbar img{
+    height: 30px;
+    padding: 20px 70px;
+}
+.line{
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.list:first-of-type{
+    height: 40px;
+    border-left: 1px solid #fff;
+    
+}
+.list-item{
+    list-style: none;
+    margin-top: 10px;
+    margin-left:40px;
+    font-size: 15px;
+}
+.list-item:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
+.navbar button{
+    padding: 7px 25px;
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c420b6;
+}
+.navbar button:hover{
+    cursor: pointer;
+    padding: 9px 28px;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 390px;
+}
+h1{
+    margin-top: 120px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-family: Montserrat;
+    width: 60%;
+    line-height: 70px;
+    margin-left: 250px;
+}
+.hero{
+    margin-left: 70px;
+    align-items: center;
+}
+p{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: Montserrat;
+    margin-top: -40px;
+}
+.hero button{
+    padding: 13px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    margin-left: 520px;
+    color: #fff;
+    background-color: #c420b6;
+    font-family: Montserrat;
+}
+.hero button:hover{
+    padding: 17px 24px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 500px;
+    box-shadow: 0 0 10px 10px #e2dada;
+}
+
